@@ -160,6 +160,10 @@
                 "speed": {
                     "value": 0,
                     "mod": 0
+                },
+                "spellPoints": {
+                    "value": 0,
+                    "max": 0
                 }
             },
             "armor": {
