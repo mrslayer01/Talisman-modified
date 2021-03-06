@@ -19,6 +19,7 @@ export class TalismanEnemySheet extends TalismanBaseActorSheet {
         // Prepare items.
         if (this.actor.data.type == "enemy") {
             this._prepareEnemyItems(data);
+            actorData.derived.spellPoints.max = actorData.attributes.craft.value;
         }
 
         return data;
@@ -33,7 +34,6 @@ export class TalismanEnemySheet extends TalismanBaseActorSheet {
                 attacks.push(i);
             }
         }
-        actorData.derived.spellPoints.max = actorData.attributes.craft.value;
         actorData.attacks = attacks;
     }
 }
