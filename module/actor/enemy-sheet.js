@@ -5,7 +5,7 @@ export class TalismanEnemySheet extends TalismanBaseActorSheet {
     static get defaultOptions() {
         return mergeObject(super.defaultOptions, {
             classes: ["talisman", "sheet", "actor"],
-            template: "systems/talisman/templates/actor/enemy-sheet.html",
+            template: "templates/actor/enemy-sheet.html",
             width: 680,
             height: 760,
             tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "skills" }],
