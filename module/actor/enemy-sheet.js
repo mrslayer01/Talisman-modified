@@ -26,7 +26,7 @@ export class TalismanEnemySheet extends TalismanBaseActorSheet {
 
     _prepareEnemyItems(sheetData) {
         const actorData = sheetData.actor;
-        .derived.spellPoints.max = actorData.attributes.craft.value;
+        actorData.derived.spellPoints.max = actorData.attributes.craft.value;
         const attacks = [];
         for (let i of sheetData.items) {
             i.img = i.img || DEFAULT_TOKEN;
