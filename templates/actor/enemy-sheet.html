@@ -20,13 +20,29 @@
                     <label for="data.attributes.threat">{{localize 'T.THREAT'}}</label>
                     <input type="number" name="data.attributes.threat" value="{{data.attributes.threat}}">
                 </div>
+                <div class="flex-group-center">
+                    <label for="data.derived.life.value">{{localize 'T.LIFE'}}</label>            
+                    <span class="flex row space-between">
+                        <input type="number" name="data.derived.life.value" value="{{data.derived.life.value}}">
+                        <span> / </span>
+                        <input type="number" name="data.derived.life.max" value="{{data.derived.life.max}}">
+                    </span>
+                </div>
+                <div class="flex-group-center">
+                    <label for="data.derived.spellPoints.value">{{localize 'T.SPELLPOINTS'}}</label>            
+                    <span class="flex row space-between">
+                        <input type="number" name="data.derived.spellPoints.value" value="{{data.derived.spellPoints.value}}">
+                        <span> / </span>
+                        <input type="number" name="data.attributes.craft.value" value="{{data.attributes.craft.value}}">
+                    </span>
+                </div>         
             </div>
         </div>
         <div class="flex" style="flex-flow: row-reverse;">
             <div class="roll-button">
                 {{!-- THIS IS ROOLL BUTTON MADE FROM BACKGROUNDS--}}
             </div>
-        </div>   
+        </div>
     </div>
     
     </header>
