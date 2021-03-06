@@ -21,8 +21,8 @@
     "gridDistance": 1,
     "gridUnits": "m",
     "url": "https://github.com/superseva/talisman",
-    "manifest": "https://raw.githubusercontent.com/superseva/talisman/main/system.json",
-    "download": "https://github.com/superseva/talisman/archive/main.zip",
+    "manifest": "https://raw.githubusercontent.com/mrslayer01/Talisman-modified/main/system.json",
+    "download": "https://github.com/mrslayer01/Talisman-modified/archive/main.zip",
     "license": "LICENSE.txt",
     "socket": true
 }
