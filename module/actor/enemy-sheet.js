@@ -20,7 +20,7 @@ export class TalismanEnemySheet extends TalismanBaseActorSheet {
         if (this.actor.data.type == "enemy") {
             this._prepareEnemyItems(data);
         }
-        actorData.derived.spellPoints.max = actorData.attributes.craft.value;
+        //actorData.derived.spellPoints.max = actorData.attributes.craft.value;
 
         return data;
     }
