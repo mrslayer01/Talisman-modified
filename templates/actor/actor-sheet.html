@@ -477,7 +477,7 @@
                                 <h4 class="item-name">{{item.name}}</h4>
                                 <div class="item-stats flex flex-center">
                                     {{#unless item.data.packed}} {{math item.data.weight "*" item.data.quantity}} {{/unless}} {{#if item.data.packed}} {{packed
-                                    item.data.weight item.data.quantity}} {{/if}}
+                                        parseFloat(item.data.weight) item.data.quantity}} {{/if}}
                                 </div>
                                 <div class="item-controls">
                                     <a class="item-control item-pack {{#unless item.data.packed}}item-unpacked{{/unless}}" title='{{localize "T.PACKED"}}'>
