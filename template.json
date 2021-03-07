@@ -86,9 +86,9 @@
                         "aspect": ""
                     },
                     "load": {
-                        "value": 0,
-                        "max": 0,
-                        "mod": 0,
+                        "value": 0.0,
+                        "max": 0.0,
+                        "mod": 0.0,
                         "penalty": 0
                     },
                     "speed": {
