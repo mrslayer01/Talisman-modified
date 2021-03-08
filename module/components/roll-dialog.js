@@ -10,7 +10,7 @@ export class RollDialog {
             aspectId: aspectId,
             focus: focus,
         };
-        let htmlContent = await renderTemplate("systems/talisman/templates/dialog/roll-dialog.html", htmlData);
+        let htmlContent = await renderTemplate("systems/talisman2/templates/dialog/roll-dialog.html", htmlData);
         return new Promise((resolve) => {
             let d = new Dialog({
                 title: "Rolling",
