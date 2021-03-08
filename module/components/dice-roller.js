@@ -49,7 +49,7 @@ export class DiceRoller {
             encumbrance: encumbrance,
         };
         //console.warn(rollData);
-        const html = await renderTemplate("systems/talisman/templates/chat/roll.html", rollData);
+        const html = await renderTemplate("systems/talisman2/templates/chat/roll.html", rollData);
         let chatData = {
             user: game.user._id,
             rollMode: game.settings.get("core", "rollMode"),
