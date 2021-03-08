@@ -149,12 +149,12 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
     dice3d.addDicePreset({
         type: "db",
         labels: [
-            "systems/talisman/ui/dice/tdb1.png",
-            "systems/talisman/ui/dice/tdb2.png",
-            "systems/talisman/ui/dice/tdb3.png",
-            "systems/talisman/ui/dice/tdb4.png",
-            "systems/talisman/ui/dice/tdb5.png",
-            "systems/talisman/ui/dice/tdb6.png",
+            "systems/talisman2/ui/dice/tdb1.png",
+            "systems/talisman2/ui/dice/tdb2.png",
+            "systems/talisman2/ui/dice/tdb3.png",
+            "systems/talisman2/ui/dice/tdb4.png",
+            "systems/talisman2/ui/dice/tdb5.png",
+            "systems/talisman2/ui/dice/tdb6.png",
         ],
         colorset: "talisman",
         system: "talisman",
@@ -162,12 +162,12 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
     dice3d.addDicePreset({
         type: "dk",
         labels: [
-            "systems/talisman/ui/dice/tdk1.png",
-            "systems/talisman/ui/dice/tdk2.png",
-            "systems/talisman/ui/dice/tdk3.png",
-            "systems/talisman/ui/dice/tdk4.png",
-            "systems/talisman/ui/dice/tdk5.png",
-            "systems/talisman/ui/dice/tdk6.png",
+            "systems/talisman2/ui/dice/tdk1.png",
+            "systems/talisman2/ui/dice/tdk2.png",
+            "systems/talisman2/ui/dice/tdk3.png",
+            "systems/talisman2/ui/dice/tdk4.png",
+            "systems/talisman2/ui/dice/tdk5.png",
+            "systems/talisman2/ui/dice/tdk6.png",
         ],
         colorset: "talisman",
         system: "talisman",
@@ -179,6 +179,6 @@ Hooks.once("diceSoNiceReady", (dice3d) => {
 /* -------------------------------------------- */
 
 function _preloadHandlebarsTemplates() {
-    const templatePaths = ["systems/talisman/templates/item/partials/item-header.html"];
+    const templatePaths = ["systems/talisman2/templates/item/partials/item-header.html"];
     return loadTemplates(templatePaths);
 }
