@@ -16,7 +16,7 @@ export class TalismanItemSheet extends ItemSheet {
 
     /** @override */
     get template() {
-        const path = "systems/talisman/templates/item";
+        const path = "systems/talisman2/templates/item";
         return `${path}/item-${this.item.data.type}-sheet.html`;
     }
 
