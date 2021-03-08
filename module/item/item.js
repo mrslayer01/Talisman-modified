@@ -67,7 +67,7 @@ export class TalismanItem extends Item {
         itemData.isSpell = itemData.type === "spell";
         itemData.isSkill = itemData.type === "skill";
         itemData.isFollower = itemData.type === "follower";
-        const html = await renderTemplate("systems/talisman/templates/chat/item.html", itemData);
+        const html = await renderTemplate("systems/talisman2/templates/chat/item.html", itemData);
         const chatData = {
             user: game.user._id,
             rollMode: game.settings.get("core", "rollMode"),
